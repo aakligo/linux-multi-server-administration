@@ -80,13 +80,13 @@ sudo systemctl start mysql
 sudo systemctl enable mysql
 
 
-Create database and user
+[Create database and user
 CREATE DATABASE webappdb;
 
-CREATE USER 'webuser'@'%' IDENTIFIED BY 'StrongPassword123!';
+CREATE USER 'webuser'@'%' IDENTIFIED BY '      !';
 
 GRANT ALL PRIVILEGES ON webappdb.* TO 'webuser'@'%';
-
+](https://github.com/aakligo/linux-multi-server-administration.git)
 FLUSH PRIVILEGES;
 
 
